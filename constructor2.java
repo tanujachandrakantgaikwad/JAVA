@@ -4,15 +4,11 @@ class Student
     int rno;
    String name;
    float per;
-      Student()
+      Student(int rno1,String name1,float per1)
         {
-           Scanner sc=new Scanner(System.in);
-           System.out.println("Enter rno");
-           rno=sc.nextInt();
-           System.out.println("Enter name");
-            name=sc.next();
-            System.out.println("Enter per");
-             per=sc.nextFloat();
+           rno=rno1;
+           name=name1;
+           per=per1;
        }
       void disp()
        {
